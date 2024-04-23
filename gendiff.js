@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
-import { program } from 'commander'; // Импорт объекта program из commander
+import { Command } from 'commander';
+
+const program = new Command();
 
 program
-  .name('gendiff')
   .description('Compares two configuration files and shows a difference.')
-  .option('-V, --version', 'output the version number')
-  .option('-h, --help', 'display help for command')
-
-if (program.help) {
-  program.help(); // Вывод справки при указании флага -h или --help
-}
+  .version('1.0')
+	.arguments('filepath1 filepath2')
+	.option('-f, --format [type]', 'output format')
+program.parse();

@@ -4,4 +4,4 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/871f28cfdf217f1c1e93/maintainability)](https://codeclimate.com/github/AbraKadabraPuf/frontend-project-46/maintainability)
 
-[![Test Coverage](https://codeclimate.com/github/AbraKadabraPuf/frontend-project-46/test_coverage)](https://api.codeclimate.com/v1/badges/871f28cfdf217f1c1e93/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/871f28cfdf217f1c1e93/test_coverage)](https://codeclimate.com/github/AbraKadabraPuf/frontend-project-46/test_coverage)

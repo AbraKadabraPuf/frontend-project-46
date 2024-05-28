@@ -5,4 +5,3 @@ const parse = (data) => {
 }
 
 export default parse;
-KTM&Lenovo$&$=373

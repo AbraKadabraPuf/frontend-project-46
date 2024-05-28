@@ -5,10 +5,7 @@ import { Command } from 'commander';
 import genDiff from '../src/index.js'
 //import { readFile, getExtension } from '../src/utils.js'
 
-
 const program = new Command();
-
-
 
 program
   .name('gendiff')
@@ -22,4 +19,4 @@ program
     console.log(result);
   });
 
-program.parse(process.argv);
+program.parse();
